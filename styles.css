@@ -1,0 +1,74 @@
+body { 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: black;
+        background-image: url('estrelas.gif');
+        background-repeat: repeat; 
+        background-size: 200px 200px; 
+        background-position: center;
+        margin: 0;
+        padding: 30px 10px; 
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+        letter-spacing: 0.5px;
+        min-height: 100vh;
+        box-sizing: border-box;
+    }
+
+
+a {
+    color: #eeff00; 
+    text-decoration: none; 
+}
+
+
+a:visited {
+    color: #ffae00;
+}
+
+a:hover {
+    color: #FF4500; 
+    text-decoration: underline; 
+}
+
+a:active {
+    color: #FF0000; 
+}
+
+a:focus {
+    outline: 2px solid #eeff00; 
+}
+
+.spotify {
+    color: #1DB954; 
+    font-size:20px}
+
+.album a {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    transition: transform 0.3s ease;
+}
+
+.album img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 2px solid #fff;
+}
+
+.botaomus {
+    color: white;
+    background-color: #ff36b2;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 0%;
+    display: inline-block; /
+}
+
+.botaomus:hover {
+    opacity: 0.9;
+    transform: scale(1.02);
+    transition: 0.2s;
+}

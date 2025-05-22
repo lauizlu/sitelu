@@ -1,41 +1,40 @@
 <!DOCTYPE html>
+
 <html>
 <head>
-    <title>MeuSite</title>
+    <title>LAUIZ</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-<style>
- 
-    body { 
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-color: black;
-        background-image: url('estrelas.gif');
-        background-repeat: repeat; 
-        background-size: 200px 200px; 
-        background-position: center;
-        margin: 0;
-        padding: 30px 10px; /* Reduzi o padding para mobile */
-        font-family: Arial, sans-serif;
-        font-weight: bold; /* ou 700 */
-        letter-spacing: 0.5px;
-        min-height: 100vh;
-        box-sizing: border-box;
-    }
-</style>
+<link rel="stylesheet" href="styles.css">
 <br>
 <br>
 <body>
+
+
 <a href="index.html" style="text-decoration: none;">
+    <div style="display: flex; align-items: center;">
+        <img src="back.gif" style="height: 20px; margin-right: 5px;"> <!-- Imagem à esquerda -->
+
     <marquee behavior="alternate" style="color:#fff; 
-    font-size: 200%; text-shadow: 0 0 10px #fff; cursor: pointer;">
+    font-size: 200%; text-shadow: 0 0 10px #6b69ad; cursor: pointer;">
          Luiz "LAUIZ" Martins 
     </marquee>
+    </div>
 </a>
+
 <br>
 <br>
-<img src="key.gif" style="width: 100%; height: 100px; object-fit: cover;">
+
+<div style="
+    width: 100%;
+    height: 80px;
+    overflow: hidden; 
+    display: flex; 
+">
+    <img src="key.gif" style="height: 100%; margin-right: -100px;">
+    <img src="key.gif" style="height: 100%;">
+    <img src="key.gif" style="height: 100%;">
+</div>
 
 <br>
 <marquee behavior="scroll" direction="left" scrollamount="3" style="color: white; font-size: 20px; background: black;">
@@ -46,83 +45,39 @@
         PRODUÇÃO / MIX
     </h2>
 
-<br> <br>
-<a href="https://open.spotify.com/album/1IjwOJro5gMK3gNIhbBTXD" target="_blank" style="
-    display: inline-block;
-    width: 150px;
-    height: 150px;
-    transition: transform 0.3s ease;
-">
-    <img src="port/foimal.jpg" alt="Álbum Foi Mal" style="
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        border: 2px solid #fff;
-    ">
+
+
+<br>
+<h1 class="album">
+<a href="foimal.html" >
+    <img src="port/foimal.jpg" alt="Álbum Foi Mal">
+</a>
+
+<br>
+<h1 class="album">
+<a href="lauiz.html">
+    <img src="port/perigo.jpeg" alt="perigo">
+</a>
+
+<br>
+<h1 class="album"> 
+<a href="https://open.spotify.com/album/7iBV91SbXEEfY2lJNDaJLS" target="_blank">
+    <img src="port/celaca.jpeg" alt="naotemnada">
 </a>
 
 
-<br> <br>
-<a href="https://open.spotify.com/album/7iBV91SbXEEfY2lJNDaJLS" target="_blank" style="
-    display: inline-block;
-    width: 150px;
-    height: 150px;
-    transition: transform 0.3s ease;
-">
-    <img src="port/celaca.jpeg" alt="naotemnada" style="
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        border: 2px solid #fff;
-    ">
+
+<br> 
+<h1 class="album">
+<a href="https://open.spotify.com/album/4qn0ZqUDpFALTWf8t1MJ1h" target="_blank">
+    <img src="port/suco.png" alt="suco">
 </a>
 
 
-<br> <br>
-<a href="https://open.spotify.com/album/0y2zFZVIG2H8eKUvCWjEYF" target="_blank" style="
-    display: inline-block;
-    width: 150px;
-    height: 150px;
-    transition: transform 0.3s ease;
-">
-    <img src="port/perigo.jpeg" alt="perigo" style="
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        border: 2px solid #fff;
-    ">
-</a>
-
-
-<br> <br>
-<a href="https://open.spotify.com/album/4qn0ZqUDpFALTWf8t1MJ1h" target="_blank" style="
-    display: inline-block;
-    width: 150px;
-    height: 150px;
-    transition: transform 0.3s ease;
-">
-    <img src="port/suco.png" alt="suco" style="
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        border: 2px solid #fff;
-    ">
-</a>
-
-
-<br> <br>
-<a href="https://open.spotify.com/album/5wxzk6lM889bcIuocqhJ1E" target="_blank" style="
-    display: inline-block;
-    width: 150px;
-    height: 150px;
-    transition: transform 0.3s ease;
-">
-    <img src="port/camb.jpg" alt="camb" style="
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        border: 2px solid #fff;
-    ">
+<br>
+<h1 class="album">
+<a href="https://open.spotify.com/album/5wxzk6lM889bcIuocqhJ1E" target="_blank">
+    <img src="port/camb.jpg" alt="camb">
 </a>
 
 
@@ -131,37 +86,17 @@
     MIX
     </h2>
     
-<br> <br>
-<a href="https://open.spotify.com/album/3hWNVvqBOEL5DXC6gBP3V0" target="_blank" style="
-    display: inline-block;
-    width: 150px;
-    height: 150px;
-    transition: transform 0.3s ease;
-">
-    <img src="port/marina.jpeg" alt="marina" style="
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        border: 2px solid #fff;
-    ">
+<br>
+<h1 class="album">
+<a href="https://open.spotify.com/album/3hWNVvqBOEL5DXC6gBP3V0" target="_blank">
+    <img src="port/marina.jpeg" alt="marina">
 </a>
 
-<br> <br>
-<a href="https://open.spotify.com/album/5uPkaTS10HxxZerZKrBxk3" target="_blank" style="
-    display: inline-block;
-    width: 150px;
-    height: 150px;
-    transition: transform 0.3s ease;
-">
-    <img src="port/quant.jpeg" alt="quantica" style="
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        border: 2px solid #fff;
-    ">
+<br>
+<h1 class="album">
+<a href="https://open.spotify.com/album/5uPkaTS10HxxZerZKrBxk3" target="_blank">
+    <img src="port/quant.jpeg" alt="quantica">
 </a>
-
-
 
 
 <br>
@@ -169,19 +104,10 @@
         PRODUÇÃO
     </h2>
     
-<br> <br>
-<a href="https://open.spotify.com/track/0YqkDPbctyQpWcSQMXepm5" target="_blank" style="
-    display: inline-block;
-    width: 150px;
-    height: 150px;
-    transition: transform 0.3s ease;
-">
-    <img src="port/natal.jpeg" alt="natal" style="
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        border: 2px solid #fff;
-    ">
+<br>
+<h1 class="album">
+<a href="https://open.spotify.com/track/0YqkDPbctyQpWcSQMXepm5" target="_blank" >
+    <img src="port/natal.jpeg" alt="natal">
 </a>
 
 <br>
@@ -189,19 +115,10 @@
         MASTER
     </h2>
 
-<br> <br>
-<a href="https://open.spotify.com/album/1nbWaxwLjadIZ21RAJJOCZ" target="_blank" style="
-    display: inline-block;
-    width: 150px;
-    height: 150px;
-    transition: transform 0.3s ease;
-">
-    <img src="port/kabeca.jpg" alt="kabecacheia" style="
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        border: 2px solid #fff;
-    ">
+<br>
+<h1 class="album">
+<a href="https://open.spotify.com/album/1nbWaxwLjadIZ21RAJJOCZ" target="_blank">
+    <img src="port/kabeca.jpg" alt="kabecacheia">
 </a>
 
 
@@ -271,7 +188,7 @@
 
 
 
-
+/* CURRICULO */
 
 
 
@@ -279,9 +196,18 @@
 
 
 <br> <br> /* CURRICULO
-<div style="background-color: #000000; padding: 20px;">
-    <h1 style="color:#fff; font-size:20px; margin: 0;">
-    CURRÍCULO
 
-<iframe src="https://drive.google.com/file/d/1kfKNucYYLbUkXjiP9PDWOwGSkPBbxAN6/preview" width="100%" height="600px"></iframe>
+    <a href="https://drive.google.com/file/d/1kfKNucYYLbUkXjiP9PDWOwGSkPBbxAN6" 
+    target="_blank" 
+    style="color: white; 
+    background-color:rgb(0, 60, 255); 
+    padding: 10px; 
+    text-decoration: none; 
+    border-radius: 0%;">
+    CURRÍCULO
+    
+    </a>
+
+
+
 </body>
