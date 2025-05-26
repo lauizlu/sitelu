@@ -2,7 +2,6 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-color: black;
         background-image: url('estrelas.gif');
         background-repeat: repeat; 
         background-size: 200px 200px; 
@@ -16,6 +15,12 @@ body {
         box-sizing: border-box;
     }
 
+br {
+    display: block;          
+    content: "";            
+    margin-bottom: 1em;     
+    line-height: 1.5;     
+}
 
 a {
     color: #eeff00; 
@@ -58,6 +63,12 @@ a:focus {
     border: 2px solid #fff;
 }
 
+
+.album :active {
+ transform: scale(0.90);
+}
+
+
 .botaomus {
     color: white;
     background-color: #ff36b2;
@@ -71,4 +82,99 @@ a:focus {
     opacity: 0.9;
     transform: scale(1.02);
     transition: 0.2s;
+}
+
+.botaomus:hover {
+        cursor: pointer;
+        background: rgb(119, 0, 255); 
+        color: white; 
+        padding: 20px; 
+        text-decoration: none; 
+        align-items: center;
+}
+
+
+.playb {
+    cursor: pointer; 
+    transition: transform 0.1s; 
+}
+
+.playb:active {
+    transform: scale(0.95);
+}
+
+.azul {
+        cursor: pointer;
+        background: rgb(0, 60, 255); 
+        color: white; 
+        padding: 20px; 
+        text-decoration: none; 
+        border-radius: 0px;
+        font-family: Arial;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 80%;
+        width: 200px;
+        text-align: center;
+        box-sizing: border-box;
+}
+
+.azul:hover {
+        cursor: pointer;
+        background: rgb(119, 0, 255); 
+        color: white; 
+        padding: 20px; 
+        text-decoration: none; 
+        border-radius: 0px;
+        font-family: Arial;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 80%;
+        width: 200px;
+        text-align: center;
+        box-sizing: border-box;
+}
+
+.azul:active {
+    transform: scale(0.90);
+}
+
+.azulsobre {
+        cursor: pointer;
+        background: rgb(0, 60, 255); 
+        color: white; 
+        padding: 20px; 
+        text-decoration: none; 
+        border-radius: 0px;
+        font-family: Arial;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100px;
+        width: 200px;
+        text-align: center;
+        box-sizing: border-box;
+}
+
+.azulsobre:active {
+    transform: scale(0.90);
+}
+
+.azulsobre:hover {
+        cursor: pointer;
+        background: rgb(119, 0, 255); 
+        color: white; 
+        padding: 20px; 
+        text-decoration: none; 
+        align-items: center;
+}
+
+.textodisco {
+    background-color: #000000; 
+    text-align: center;
+    width: 90%;
+    padding: 10px;
+    ">
 }
