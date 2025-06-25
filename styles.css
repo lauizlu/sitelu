@@ -27,11 +27,6 @@ a {
     text-decoration: none; 
 }
 
-
-a:visited {
-    color: #ffae00;
-}
-
 a:hover {
     color: #FF4500; 
     text-decoration: underline; 
