@@ -166,6 +166,54 @@ a:focus {
         align-items: center;
 }
 
+
+.azulsobre2 {
+        cursor: pointer;
+        background: rgb(255, 0, 0); 
+        color: white; 
+        padding: 20px; 
+        text-decoration: none; 
+        border-radius: 0px;
+        font-family: Arial;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100px;
+        width: 200px;
+        text-align: center;
+        box-sizing: border-box;
+          animation: pulsar 1.2s infinite;
+}
+
+@keyframes pulsar {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.7);
+    }
+    50% {
+        transform: scale(1.01);
+
+        box-shadow: 0 0 20px 10px rgba(255, 0, 0, 0.3);
+    }
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.7);
+    }
+}
+
+
+.azulsobre2:active {
+    transform: scale(0.90);
+}
+
+.azulsobre2:hover {
+        cursor: pointer;
+        background: rgb(255, 43, 78); 
+        color: white; 
+        padding: 20px; 
+        text-decoration: none; 
+        align-items: center;
+}
 .textodisco {
     background-color: #000000; 
     text-align: center;
