@@ -11,8 +11,9 @@ body {
         font-family: Arial, sans-serif;
         font-weight: bold;
         letter-spacing: 0.5px;
-        min-height: 100vh;
+        min-height: -webkit-fill-available;
         box-sizing: border-box;
+        
     }
 
 br {
@@ -184,7 +185,6 @@ a:focus {
         box-sizing: border-box;
           animation: pulsar 1.2s infinite;
 }
-
 @keyframes pulsar {
     0% {
         transform: scale(1);
@@ -205,7 +205,6 @@ a:focus {
 .azulsobre2:active {
     transform: scale(0.90);
 }
-
 .azulsobre2:hover {
         cursor: pointer;
         background: rgb(255, 43, 78); 
