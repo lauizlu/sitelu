@@ -148,8 +148,97 @@
     atualizarTexto(parseInt(slider.value));
   </script>
 
-  
+ <br>
+ <br>
+ 
+<table border="1" cellpadding="10" cellspacing="0" bgcolor="#FFFFCC" style="font-family: 'Comic Sans MS', cursive; width: 80%;">
+  <tr>
+    <td align="center">
+      <button onclick="gerarDica()"
+              style="background:#000000; color:white; font-weight:bold; padding:10px 20px; border:4px solid #000; cursor:pointer; font-size:17px;">
+        🎲 GERAR DICA
+      </button>
+      
+      <p id="visor"
+         style="margin:20px 0; font-size:16px; color:#000; min-height:70px;">
+        Sua dica aparecerá aqui...
+      </p>
+    </td>
+  </tr>
+</table>
 
+<script>
+const dicas = [
+  "Coma uma colher de açúcar, mel, limão, gengibre ou vinagre",
+  "Mostre sua música para um idoso.",
+  "Escuta de novo amanhã",
+  "Troca de guitarrista",
+  "Aumente o bumbo",
+  "É o timbre da caixa mano... its over",
+  "Não precisava do solo",
+  "Sem reverb",
+  "Tira um instrumento pra ver o que acontece",
+  "Cante mais baixo e pertinho do microfone",
+  "Toca a melodia do refrão de novo",
+  "essa música é sobre sexo?",
+  "radiohead?",
+  "youtube 2012",
+  "Pense como o Liminha, faça o oposto",
+  "Oscar Niemeyer fumou a vida toda",
+  "Dá vontade de dançar?",
+  "Toulouse Lautrec sei lá como que escreve",
+  "Comece com a Wikipedia",
+  "CHEGA DO PADZINHO",
+  "Roel Nosa daria um ótimo nome de banda",
+  "A bateria dentro de uma caverna",
+  "O padzinho tocando a harmonia é completamente desnecessário",
+  "Minha amiga gostou de você",
+  "Homer - Casual ",
+  "não existe teclado",
+  "1...2... tell me again?",
+  "Pizza e dualshock 3",
+  "vinho em copo americano MÊO",
+  "Onde?",
+  "Imagina voê rotacionando o título da música no blender",
+  "Ninguém tocando a harmonia, só riff de guitarra",
+  "refuse! resist!",
+  "tudo diferente",
+  "Eu também não sei", 
+  "You are gorgeous",
+  "Buddy Holly - That'll be the day",
+  "Não dê suas informaçoes para estranhos na internet",
+  "Pirataria pode resolver isso",
+  "Vai envelhecer mal",
+  "vai envelhecer bem",
+  "cara...",
+  "CARA...",
+  "CA-RA...",
+  "Pq que é tão constrangedor cumprimentar alguém com a mao molhada depois de sair do banheiro? Não é como se eu tiveesse mijado na minha mão!!",
+  "Não gira lâmpada",
+  "De novo?",
+  "Guitarra, guitarra, guitarra, guitarra",
+  "O baixo não precisa ser TÃO grave",
+  "Abre o tone... ABRE O TONE",
+  "TIRA O JÁ",
+  "Tira o já mano",
+  "Sábado... NA BALADAA🎵",
+  "EMOJI ou GIF?",
+  "Jorge Lucas",
+  "Batman",
+  "XD",
+  "Larga a faculdade e vai vender sua arte, mano",
+  "𝕮𝕽𝕴𝕸𝕰",
+  "≋≋≋OCEANOATLANTICO≋≋≋",
+  "▶︎ •၊၊||၊|။||||| 0:10",
+  "𓆝 𓆟 𓆞 𓆝 𓆟 Brasil",
+  "▄︻芫═───💥",
+  "Essa é o negócio inteiro ou é parte do negócio?"
+];
 
+function gerarDica() {
+  const aleatoria = dicas[Math.floor(Math.random() * dicas.length)];
+  document.getElementById("visor").innerHTML = "✦ " + aleatoria;
+}
+</script>
 
 </body>
